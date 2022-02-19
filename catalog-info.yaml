@@ -2,9 +2,16 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: twilio-node
+  description: A Node module for communicating with the Twilio API and generating TwiML.
+  tags: 
+    - node.js
+    - javascript
+    - sms
+    - twilio
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/twilio-node
 spec:
-  type: other
-  lifecycle: unknown
+  type: sms
+  lifecycle: dev
   owner: devsecops
+  system: python
