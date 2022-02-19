@@ -4,7 +4,7 @@ metadata:
   name: twilio-node
   description: A Node module for communicating with the Twilio API and generating TwiML.
   tags: 
-    - node.js
+    - node
     - javascript
     - sms
     - twilio
